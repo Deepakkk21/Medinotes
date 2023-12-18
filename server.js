@@ -7,7 +7,6 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 
 
-
 app.use(express.urlencoded({extended:true}));
 app.use(cors());
 app.use(bodyParser.json());
