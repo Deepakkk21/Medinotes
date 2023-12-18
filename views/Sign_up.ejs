@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Sign_up.css" rel="stylesheet" type="text/css">
+    <title>Sign_up Page</title>
+</head>
+<body>
+    <h2>Welcome to Medinotes</h2>
+    <form action="/auth/signup" method="post">
+        <input type="text" required="true" placeholder="your name" id="name" name="name">
+        <input type="email" required="true" placeholder="your email" id="email" name="email">
+        <input type="password" required="true" placeholder="your password" id="password" name="password">
+        <input type="password" required="true" placeholder="confirm your password" id="confirm_password" name="confirm_password">
+        <input type="submit" value="Signup">
+        <h3><span>existing user</span></h3><a href="/auth/signIn">SignIN</a>
+    </form>
+
+
+</body>
+</html>
