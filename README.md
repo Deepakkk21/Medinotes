@@ -2,7 +2,7 @@
 
 # Folder Structure
 
-|-- node_modules         // Node.js modules installed via npm   
+|-- node_modules         // Node.js modules installed via npm    
 |-- assets               // Static assets (images, stylesheets, client-side scripts)  
 |    |-- css
 |       |-- sign_in.css  // Styles for the sign-in page            
