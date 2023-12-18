@@ -6,7 +6,7 @@
 |-- assets               // Static assets (images, stylesheets, client-side scripts)  
 |    |-- css
 |       |-- sign_in.css  // Styles for the sign-in page            
-|       |-- signup.css   // Styles for the signup page  
+|       |-- signup.css   // Styles for the signup page   
 |       |-- profile.css  // Styles for the user profile page
 |-- config               // Configuration files
 |   |-- mongoose.js      // Mongoose configuration
