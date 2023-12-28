@@ -5,6 +5,7 @@ const express=require('express');
 
 const router = express.Router();
 
+router.get('/',userController.Profile_page)
 
 router.get('/profile/:id',userController.Profile_page)
 router.post('/profile/:id',medicineController.medicineController)
